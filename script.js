@@ -7,7 +7,7 @@ function sumTo(n) {
   }
   return sum;
 }
-prompt('- Find and display total sum of numbers from 1 to 3', sumTo(3));
+console.log('- Find and display total sum of numbers from 1 to 3:', sumTo(3));
 
 
 //- Find and display total sum of numbers from 20 to 220;
@@ -19,7 +19,7 @@ function sumTo2(n) {
   }
   return sum;
 }
-prompt('- Find and display total sum of numbers from 20 to 220', sumTo2(220));
+console.log('- Find and display total sum of numbers from 20 to 220:', sumTo2(220));
 
 //- Display even numbers from 1 to 20 by using for loop
 //  do it with using ‘continue’
