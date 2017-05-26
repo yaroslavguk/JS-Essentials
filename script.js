@@ -85,7 +85,7 @@ console.log('Rewrite code from using ‘for’ to using while');
 console.log('Write code which will ask user (prompt ) to put number greater than 100, repeat prompt until user put required number, then display result of prompt do it using while');
 
    var num = 0;
-   while (num < 101) {
+   while (num < 101 || isNaN(num)) {
    num = prompt('put number greater than 100');
 }
 
@@ -94,7 +94,7 @@ console.log('Write code which will ask user (prompt ) to put number greater than
    var num1;
    do {
    num1 = prompt('put number greater than 100');
-}  while (num1 <= 100 && num1 != null);
+}  while (num1 <= 100 || isNaN(num1));
 
 //- Show in console using for.
 console.log('Show # in console using for');
